@@ -112,3 +112,28 @@ public:
     }
 };
 
+int main()
+{
+    LinkedList mhs;
+    int nim;
+    char ch;
+    while(1)
+    {
+        cout << endl
+             << "Menu";
+        cout << endl
+             << "1. Menambah data kedalam list" << endl;
+        cout << "2. Menghapus data dari dalam list" << endl;
+        cout << "3. Menampilkan semua data di dalam list" << endl;
+        cout << "4. Mencari data dalam list" << endl;
+        cout << "5. Keluar" << endl;
+        cout << endl
+             << "Masukkan pilihan (1-5) :";
+        cin >> ch;
+        switch (ch){}
+        
+
+    }
+
+};
+
