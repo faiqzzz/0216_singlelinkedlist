@@ -189,7 +189,12 @@ int main()
         {
             exit(0);
         }
-        
+        break;
+        default:
+        {
+            cout << "Pilihan salah !." << endl;
+        }
+        break;
     
         }
 
