@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
 
-//Membuat struct node
-struct Node
+//Membuat class node
+class Node
 {
+public:
     int noMhs;
     Node *next;
 };
-
-// set volue START = NULL
-Node *START = NULL;
 
