@@ -8,3 +8,6 @@ struct Node
     Node *next;
 };
 
+// set volue START = NULL
+Node *START = NULL;
+
