@@ -36,7 +36,9 @@ public:
                 return;
 
             }
-            
+            nodeBaru ->next = START;
+            START = nodeBaru;
+            return;
         }
         
     }
