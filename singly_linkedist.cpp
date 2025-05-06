@@ -28,14 +28,8 @@ public:
         Node *nodeBaru = new Node;
         nodeBaru-> noMhs = nim;
 
-        
+        if (START == NULL || nim <= START->noMhs)
+        {
+        }
     }
-
-    bool listEmpty()
-    {
-        return (START == NULL);
-    }
-
 };
-
-
